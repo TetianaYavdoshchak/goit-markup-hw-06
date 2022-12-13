@@ -667,10 +667,17 @@ img {
 
   width: 30px;
   height: 30px;
-
+  cursor: pointer;
   background: var(--primary-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+.modal-close:hover,
+.modal-close:focus {
+  color: var(--accent-color);
+}
+.button-icons {
+  fill: currentColor;
 }
 .modal-heading {
   margin-bottom: 12px;
